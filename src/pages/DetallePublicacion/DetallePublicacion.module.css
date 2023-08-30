@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: white;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.titulo {
+  font-size: 24px;
+  color: #c62828;
+  margin-bottom: 10px;
+}
+
+.autor {
+  font-size: 18px;
+  color: #d32f2f;
+}
+
+.resumen {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.fecha {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #b71c1c;
+}
+
+.notFound {
+  font-size: 18px;
+  color: #c62828;
+}
+
+.iconsContainer {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconButton {
+  background-color: #c1c1c1cc;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.iconButton:hover {
+  background-color: #9f9f9fcc; 
+}

@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Prueba de Desarrollo para SynAgro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una plataforma de blog de publicaciones desarrollada como parte de la prueba de desarrollo para SynAgro. Permite a los usuarios ver, crear, editar y eliminar publicaciones relacionadas con diferentes temas. También incluye un sistema de autenticación utilizando Firebase, lo que permite a los usuarios registrarse, iniciar sesión y gestionar sus propias publicaciones.
 
-## Available Scripts
+## Cómo Ejecutar el Proyecto
 
-In the project directory, you can run:
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
-### `npm start`
+1. **Instalación de Dependencias:**
+   Abre una terminal en la carpeta raíz del proyecto y ejecuta el siguiente comando para instalar las dependencias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   ```sh
+   npm install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Iniciar el Servidor JSON:**
+    Primero, inicia el servidor JSON simulado para simular el backend de la plataforma. Ejecuta el siguiente comando:
 
-### `npm run build`
+    ```sh
+    npm run json-server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Esto iniciará el servidor JSON en http://localhost:5000, proporcionando datos simulados de las publicaciones.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Iniciar la Aplicación React:**
+    En otra terminal, manteniéndote en la carpeta raíz del proyecto, ejecuta el siguiente comando para iniciar la aplicación de React:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```sh
+    npm start
+Esto iniciará la aplicación en el navegador y podrás verla en http://localhost:3000.
 
-### `npm run eject`
+Funcionalidades Principales
+Vista de Publicaciones: Al acceder a la plataforma, verás una lista de distintas publicaciones con su titulo, autor y resumen.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Autenticación de Usuario: La plataforma utiliza Firebase para la autenticación de usuarios. Puedes registrarte con una cuenta o iniciar sesión si ya tienes una.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Gestión de Publicaciones: Una vez autenticado, cada usuario puede gestionar sus propias publicaciones. Puede crear nuevas, editar las existentes o eliminarlas.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tecnologías Utilizadas
+React: Biblioteca JavaScript para construir interfaces de usuario interactivas.
+Firebase: Plataforma de desarrollo de aplicaciones móviles y web que proporciona servicios de autenticación y almacenamiento en la nube.
+JSON Server: Herramienta para crear un servidor JSON de simulación para desarrollo y pruebas.

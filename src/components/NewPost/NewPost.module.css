@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+  min-width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  overflow: hidden;
+  max-height: 90vh;
+  padding: 25px;
+}
+.container h2 {
+  color: rgb(255, 85, 85);
+  font-weight: 700;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+.inputGroupImages {
+  display: flex;
+  flex-direction: column;
+  background-color: #989898;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 0.8em;
+  row-gap: 5px;
+}
+
+.customFileInput {
+  display: flex;
+  width: 60px; /* Ajusta el ancho según tu icono */
+  height: 60px; /* Ajusta la altura según tu icono */
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 4px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.label {
+  font-weight: bold;
+  color: rgb(255, 85, 85);
+  margin-bottom: 8px;
+}
+
+.input,
+.textarea {
+  padding: 8px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  column-gap: 10px;
+}
+
+/* Agrega aquí tus media queries para el diseño responsive */
+/* Por ejemplo: */
+@media (max-width: 768px) {
+  .container {
+    margin: 0;
+    min-width: 0;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+}

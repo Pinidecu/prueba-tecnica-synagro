@@ -1,0 +1,33 @@
+.postItem {
+  border: 1px solid #ccc;
+  width: 300px;
+  border-radius: 8px;
+  background-color: #ffe3e3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+  text-align: justify;
+}
+.postItem a {
+  text-decoration: none;
+  color: rgb(113, 20, 20);
+}
+.postItem a:hover {
+  color: rgb(222, 0, 0);
+}
+
+.iconsContainer {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos adicionales para diseño responsivo */
+@media (max-width: 768px) {
+  .postItem {
+    width: 100%;
+  }
+}
