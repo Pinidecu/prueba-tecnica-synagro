@@ -53,7 +53,7 @@ const DetallePublicacion: React.FC = () => {
 
   useEffect(() => {
     buscarAutor();
-  }, []);
+  }, [postsDetails?.autor]);
 
   return (
     <div className={styles.container}>
@@ -102,7 +102,8 @@ const DetallePublicacion: React.FC = () => {
           )}
           <h2 className={styles.titulo}>{postsDetails.titulo}</h2>
           <p className={styles.autor}>
-            Autor: {`${userAutor?.name} ${userAutor?.lastName}`}
+            Autor:
+            {`${userAutor?.name} ${userAutor?.lastName}`}
           </p>
           <p className={styles.fecha}>Fecha: {postsDetails.fecha}</p>{" "}
           <p className={styles.resumen}>{postsDetails.resumen}</p>

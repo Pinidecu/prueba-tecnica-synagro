@@ -44,7 +44,7 @@ const Publicacion: React.FC<PublicacionProps> = ({
 
   useEffect(() => {
     buscarAutor();
-  }, []);
+  }, [autor]);
 
   return (
     <div className={styles.postItem}>
