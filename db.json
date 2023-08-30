@@ -4,70 +4,70 @@
       "id": 1,
       "titulo": "Los Beneficios del Running para la Salud",
       "resumen": "Exploramos los impactantes beneficios para la salud que ofrece el running, desde mejorar la condición cardiovascular hasta reducir el estrés.",
-      "fecha": "10/08/2023",
+      "fecha": "2023-08-10",
       "autor": 2
     },
     {
       "id": 2,
       "titulo": "Preparación Física para el Ciclismo de Montaña",
       "resumen": "Descubre cómo optimizar tu preparación física para el emocionante mundo del ciclismo de montaña, desde ejercicios específicos hasta consejos de seguridad.",
-      "fecha": "12/08/2023",
+      "fecha": "2023-08-12",
       "autor": 4
     },
     {
       "id": 3,
       "titulo": "Los Secretos de una Alimentación Saludable para Deportistas",
       "resumen": "Conoce los secretos detrás de una alimentación saludable diseñada para mejorar el rendimiento deportivo. Exploramos las mejores opciones nutricionales y hábitos alimenticios.",
-      "fecha": "18/08/2023",
+      "fecha": "2023-08-18",
       "autor": 3
     },
     {
       "id": 4,
       "titulo": "Entrenamiento de Alta Intensidad: Más Allá de los Mitos",
       "resumen": "Desmitificamos el entrenamiento de alta intensidad, analizando sus beneficios reales, riesgos potenciales y cómo incorporarlo de manera segura en tu rutina deportiva.",
-      "fecha": "22/08/2023",
+      "fecha": "2023-08-24",
       "autor": 2
     },
     {
       "id": 5,
       "titulo": "Construyendo un Equipo Exitoso: Lecciones del Deporte",
       "resumen": "Exploramos las valiosas lecciones que el mundo del deporte nos brinda sobre la construcción y gestión de equipos exitosos en cualquier ámbito de la vida.",
-      "fecha": "27/08/2023",
+      "fecha": "2023-08-27",
       "autor": 4
     },
     {
       "id": 6,
       "titulo": "Los Fundamentos del Entrenamiento de Resistencia",
       "resumen": "Exploramos los principios esenciales detrás del entrenamiento de resistencia, desde el desarrollo de la resistencia cardiovascular hasta estrategias de entrenamiento a largo plazo.",
-      "fecha": "03/09/2023",
+      "fecha": "2023-09-03",
       "autor": 3
     },
     {
       "id": 7,
       "titulo": "Gestión del Tiempo para Atletas Multidisciplinarios",
       "resumen": "Descubre cómo los atletas que practican múltiples disciplinas pueden administrar eficazmente su tiempo, establecer prioridades y mantener un equilibrio saludable.",
-      "fecha": "08/09/2023",
+      "fecha": "2023-09-08",
       "autor": 2
     },
     {
       "id": 8,
       "titulo": "El Papel del Descanso en el Rendimiento Deportivo",
       "resumen": "Analizamos la importancia del descanso adecuado en la mejora del rendimiento deportivo. Consejos para una recuperación óptima y evitar el agotamiento.",
-      "fecha": "14/09/2023",
+      "fecha": "2023-09-13",
       "autor": 4
     },
     {
       "id": 9,
       "titulo": "El Poder de la Mentalidad en la Competición",
       "resumen": "Exploramos cómo una mentalidad positiva y enfocada puede marcar la diferencia en la competición deportiva. Estrategias para desarrollar la resiliencia mental.",
-      "fecha": "20/09/2023",
+      "fecha": "2023-09-20",
       "autor": 3
     },
     {
       "id": 10,
       "titulo": "Consejos de Seguridad para Practicar Deportes Extremos",
       "resumen": "Proporcionamos consejos esenciales para mantener la seguridad al practicar deportes extremos, desde el paracaidismo hasta el snowboard fuera de pista.",
-      "fecha": "25/09/2023",
+      "fecha": "2023-09-24",
       "autor": 2
     }
   ],
